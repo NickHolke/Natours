@@ -67,14 +67,27 @@ body {
   -webkit-background-clip: text;
   color: transparent; }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center; }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
 .btn:link, .btn:visited {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -97,6 +110,14 @@ body {
 .btn--animated {
   animation: moveInBottom .5s ease-out .8s;
   animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  color: #55c57a;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding-bottom: 1px; }
 
 .header {
   position: relative;
