@@ -42,4 +42,9 @@
     border-bottom: 1px solid $color-primary;
     padding-bottom: 1px;
   }
+
+  &:hover {
+    color: $color-primary-light;
+    border-bottom: 1px solid $color-primary-light;
+  }
 }
